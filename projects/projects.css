@@ -1,0 +1,32 @@
+.navbar-projects {
+	color: black;
+}
+
+.projects-flex {
+	background-color: rgb(188, 134, 238, 0.3);
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.project-image {
+	margin-top: 30px;
+}
+
+.project-images {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
