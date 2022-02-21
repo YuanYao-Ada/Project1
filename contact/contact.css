@@ -1,0 +1,33 @@
+.navbar-contact {
+	color: black;
+}
+
+.contact-large-font {
+	font-size: 100px;
+	font-weight: bolder;
+	color: #ffcab0;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.contact-medium-font {
+	font-size: 30px;
+	color: rgb(199, 188, 188);
+	text-align: center;
+}
+
+.contact-small-font {
+	font-size: 15px;
+	color: #ffcab0;
+	text-align: center;
+}
+
+.contact-bold-title {
+	font-size: 20px;
+	color: #ffcab0;
+	font-weight: bolder;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
