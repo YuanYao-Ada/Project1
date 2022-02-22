@@ -3,16 +3,28 @@
 }
 
 .introduction-flex {
-	background-color: rgb(188, 134, 238, 0.3);
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-top: 30px;
-	padding: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 3%;
 }
 
 .home-image {
 	margin-top: 30px;
+	max-width: 100%;
+}
+
+#education-card > p:first-child {
+	font-weight: bolder;
+}
+
+@media (max-width: 600px) {
+	.introduction-flex-item {
+		margin: auto;
+		width: 85%;
+	}
+}
+
+span {
+	color: #ffcab0;
 }
