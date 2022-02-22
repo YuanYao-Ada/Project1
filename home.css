@@ -21,7 +21,7 @@
 @media (max-width: 600px) {
 	.introduction-flex-item {
 		margin: auto;
-		width: 85%;
+		object-fit: ;
 	}
 }
 

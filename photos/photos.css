@@ -21,3 +21,23 @@ h1 {
 .navbar-photos {
 	color: black;
 }
+
+@media (max-width: 1200px) {
+	.photos-grid {
+		display: grid;
+		grid-template-columns: 49% 49%;
+		grid-template-rows: 600px 600px 600px;
+		grid-gap: 2%;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 600px) {
+	.photos-grid {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 600px 600px 600px 600px 600px 600px;
+		grid-gap: 2%;
+		margin-top: 30px;
+	}
+}
