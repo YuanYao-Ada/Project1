@@ -16,7 +16,7 @@
 
 .project-image {
 	margin: auto;
-	margin-top: 15px;
+	margin-top: 3%;
 	object-fit: contain;
 	width: 85%;
 }
@@ -39,4 +39,18 @@ p {
 p > a {
 	color: black;
 	text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+	.project-image {
+		margin: auto;
+		height: 400px;
+	}
+}
+
+@media (max-width: 600px) {
+	.project-image {
+		margin: auto;
+		height: 300px;
+	}
 }
